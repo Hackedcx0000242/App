@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сurrent weather</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/icon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./icon/favicon-32x32.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="city">
+        <input
+          type="search"
+          class="search"
+          id="search"
+          placeholder="Search City"
+        />
+        <button id="button">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+      <div id="w-info" class="w-info">
+        <h2 class="cityi" id="cityi">Weather In Bareilly</h2>
+        <div class="temps">
+          <h1 class="temp" id="temp">51</h1>
+          <span class="deg">°C</span>
+        </div>
+        <div class="cloud">
+          <img src="" alt="" class="icon" id="ic1" />
+          <div class="details" id="details">Cloudy</div>
+        </div>
+        <div class="Humidity" id="Humidity">Humidity: 73%</div>
+        <div id="wind">Wind Speed 6.2km/h</div>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
